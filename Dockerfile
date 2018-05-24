@@ -5,7 +5,6 @@ RUN apk add --update --no-cache libstdc++ && \
     git clone https://github.com/grpc/grpc && \
     cd /grpc && \
     git submodule update --init && \
-    apk add cmake && \
     cd third_party/gflags/ && \
     mkdir build && \
     cd build && \
